@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #273445;
+}
+:root{
+    --bg:#273445;
+    --border:#455362;
+    --white:#fff;
+}
+#wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.situation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.replay{
+    padding:3px 40px;
+    background: var(--bg);
+    border: 5px solid var(--border);
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 16px;
+    transition: 0.8s;
+}
+.replay:hover{
+    background:var(--border);
+}
+.time{
+    padding:3px 0px;
+    width: 45%;
+    background: var(--bg);
+    border: 5px solid var(--border);
+    box-sizing: border-box;
+    text-align: center;
+   
+    color: var(--white);
+    font-size: 16px;
+}
+.time span{
+    padding-left: 30px;
+}
+ul{
+    margin-top: 1rem;
+    list-style: none;
+    border: 7px solid var(--border);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+li{
+    width: 100px;
+    height: 100px;
+    color: var(--white);
+    background: url("https://placeimg.com/400/400/any");
+}
+.start{
+    background: var(--bg);
+    border: none;
+    border: 5px solid var(--border);
+    box-sizing: border-box;
+    width: 100%;
+    padding:10px 0px;
+    font-size: 20px;
+    color: var(--white);
+    margin-top: 1rem;
+    transition: 0.8s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.start:hover{
+    background:var(--border);
+}
+.finish{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 10;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #1B1464;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.list0 {
+    background-position-x: 0;
+    background-position-y: 0;
+}
+.list1 {
+    background-position-x: -100px;
+    background-position-y: 0px;
+}
+.list2 {
+    background-position-x: -200px;
+    background-position-y: 0px;
+}
+.list3 {
+    background-position-x: -300px;
+    background-position-y: 0px;
+}
+.list4 {
+    background-position-x: 0px;
+    background-position-y: -100px;
+}
+.list5 {
+    background-position-x: -100px;
+    background-position-y: -100px;
+}
+.list6 {
+    background-position-x: -200px;
+    background-position-y: -100px;
+}
+.list7 {
+    background-position-x: -300px;
+    background-position-y: -100px;
+}
+.list8 {
+    background-position-x: 0px;
+    background-position-y: -200px;
+}
+.list9 {
+    background-position-x: -100px;
+    background-position-y: -200px;
+}
+.list10 {
+    background-position-x: -200px;
+    background-position-y: -200px;
+}
+.list11 {
+    background-position-x: -300px;
+    background-position-y: -200px;
+}
+.list12 {
+    background-position-x: 0px;
+    background-position-y: -300px;
+}
+.list13 {
+    background-position-x: -100px;
+    background-position-y: -300px;
+}
+.list14 {
+    background-position-x: -200px;
+    background-position-y: -300px;
+}
+.list15 {
+    background-position-x: -300px;
+    background-position-y: -300px;
+}
+
